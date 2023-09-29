@@ -21,14 +21,31 @@ final class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-      
+        colorDisplayView.layer.cornerRadius = 15
+        updateUI()
     }
-
+    private func updateUI() {
+        redValueLabel.text = String(format: "%.2f", redSlider.value)
+        greenValueLabel.text = String(format: "%.2f", greenSlider.value)
+        blueValueLabel.text = String(format: "%.2f", blueSlider.value)
+        
+        colorDisplayView.backgroundColor = UIColor(
+            red: CGFloat(redSlider.value),
+            green: CGFloat(greenSlider.value),
+            blue: CGFloat(blueSlider.value),
+            alpha: 1
+        )
+    }
     @IBAction func redSliderAction() {
+        updateUI()
     }
     @IBAction func greenSliderAction() {
+        updateUI()
     }
     @IBAction func blueSliderAction() {
+        updateUI()
     }
 }
+
+
 
