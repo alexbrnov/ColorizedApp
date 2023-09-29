@@ -36,6 +36,7 @@ final class ViewController: UIViewController {
             alpha: 1
         )
     }
+    
     @IBAction func redSliderAction() {
         updateUI()
     }
