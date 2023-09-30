@@ -8,7 +8,7 @@
 import UIKit
 
 final class ViewController: UIViewController {
-
+    
     @IBOutlet var colorDisplayView: UIView!
     
     @IBOutlet var redValueLabel: UILabel!
@@ -37,16 +37,9 @@ final class ViewController: UIViewController {
         )
     }
     
-    @IBAction func redSliderAction() {
-        updateUI()
-    }
-    @IBAction func greenSliderAction() {
-        updateUI()
-    }
-    @IBAction func blueSliderAction() {
+    @IBAction func sliderAction() {
         updateUI()
     }
 }
-
 
 

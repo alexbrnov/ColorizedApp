@@ -81,20 +81,20 @@
                                                 <rect key="frame" x="-2" y="0.0" width="294" height="31"/>
                                                 <color key="tintColor" red="1" green="0.4192869494" blue="0.41756531860000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <connections>
-                                                    <action selector="redSliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="fcl-Ng-XYX"/>
+                                                    <action selector="sliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="zy0-f7-kwO"/>
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.40000000000000002" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ML2-y3-YyH">
                                                 <rect key="frame" x="-2" y="44" width="294" height="31"/>
                                                 <color key="tintColor" systemColor="systemGreenColor"/>
                                                 <connections>
-                                                    <action selector="greenSliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="2Yw-Mc-3lW"/>
+                                                    <action selector="sliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="byO-3S-c0U"/>
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="zFb-9q-wPW">
                                                 <rect key="frame" x="-2" y="88" width="294" height="31"/>
                                                 <connections>
-                                                    <action selector="blueSliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="Ecl-bO-XjA"/>
+                                                    <action selector="sliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="PBA-yH-hA9"/>
                                                 </connections>
                                             </slider>
                                         </subviews>
@@ -136,7 +136,7 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
